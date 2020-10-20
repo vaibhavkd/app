@@ -4,11 +4,9 @@ Flutter android app that gives real time covid19 cases, news, updates from WHO &
 
 <p align="center">
   <img src="screenshots/Screenshot_2020-10-20-16-51-10-848_com.example.pune_fights_covid19.jpg" width="350" title="hover text">
-  <img src="yscreenshots/Screenshot_2020-10-20-16-51-16-603_com.example.pune_fights_covid19.jpg" width="350" alt="accessibility text">
+  <img src="screenshots/Screenshot_2020-10-20-16-51-16-603_com.example.pune_fights_covid19.jpg" width="350" alt="accessibility text">
 </p>
 
-<img src="screenshots/Screenshot_2020-10-20-16-51-10-848_com.example.pune_fights_covid19.jpg">
-![alt text](https://github.com/vaibhavkdd/real_time_covid19_flutter_app/blob/main/screenshots/Screenshot_2020-10-20-16-51-16-603_com.example.pune_fights_covid19.jpg?raw=true)
 
 
 
