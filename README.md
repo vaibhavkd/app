@@ -4,14 +4,65 @@ Flutter android app that gives real time covid19 cases, news, updates from WHO &
 
 ### Some Screenshots from app
 
-[![Flutter Responsive](https://img.shields.io/badge/flutter-responsive-brightgreen.svg?style=flat-square)](https://github.com/Codelessly/ResponsiveFramework) [![GitHub release](https://img.shields.io/github/release/Codelessly/FlutterMinimalWebsite.svg?style=flat-square)](https://github.com/Codelessly/FlutterMinimalWebsite/releases) [![GitHub Release Date](https://img.shields.io/github/release-date/Codelessly/FlutterMinimalWebsite.svg?style=flat-square)](https://github.com/Codelessly/FlutterMinimalWebsite/releases) [![GitHub issues](https://img.shields.io/github/issues/Codelessly/FlutterMinimalWebsite.svg?style=flat-square)](https://github.com/Codelessly/FlutterMinimalWebsite/issues) [![GitHub top language](https://img.shields.io/github/languages/top/Codelessly/FlutterMinimalWebsite.svg?style=flat-square)](https://github.com/Codelessly/FlutterMinimalWebsite) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Codelessly/FlutterMinimalWebsite.svg?style=flat-square)]
-
 <p align="center">
   <img src="screenshots/Screenshot_2020-10-20-16-51-16-603_com.example.pune_fights_covid19.jpg" width="300">
   <img src="screenshots/Screenshot_2020-10-20-16-51-51-248_com.example.pune_fights_covid19.jpg" width="300">
   <img src="screenshots/Screenshot_2020-10-20-16-53-18-603_com.example.pune_fights_covid19.jpg" width="300">
 </p>
 
+### Dependencies Used
+
+```
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  fluttericon: ^1.0.7
+  url_launcher: ^5.4.0 
+  easy_web_view: ^1.3.0
+  http: ^0.12.0
+  
+```
+
+### Folder Structure
+Here is the core folder structure which flutter provides.
+
+```
+flutter-app/
+|- android
+|- assets 
+|- build
+|- ios
+|- keys
+|- lib
+|- test
+|- web
+```
+
+Here is the folder structure we have been using in this project
+
+```
+lib/
+|- News/
+|- Your Health/
+|- home_page.dart
+|- main.dart
+|- splash_screen.dart
+|- TAB1_your_health.dart
+|- TAB2_news.dart
+|- TAB3_get_help.dart
+```
+
+Now, lets dive into the lib folder which has the main code for the application.
+
+```
+1- main.dart - This is the starting point of the application. Our app will start from here. Code in this file will throw flash screen on our app for 2 seconds and then it will lead us to home_page.dart
+2- home_page.dart - This program will show us home page of our app which will have three main tabs, i.e. "Your Health", "News", "Get Help".
+3- splash_screen.dart - This program will have animated icon that will play on user's screen before our app gets started.
+4- Your Health/ - This folder will have all the tabs for our homepage's Your Health tab
+5- News/- This folder will have all the tabs for our homepage's News tab.
+
+```
 
 
 ## Info to get started with flutter 
