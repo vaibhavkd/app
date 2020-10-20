@@ -1,8 +1,12 @@
 # pune_fights_covid19
 
-A new Flutter project.
+Flutter android app that gives real time covid19 cases, news, updates from WHO & UN, info about covid19 disease and helpline info for Pune City in India.
 
-## Getting Started
+<img src="screenshots/Screenshot_2020-10-20-16-51-10-848_com.example.pune_fights_covid19.jpg">
+
+
+
+## Info to get started with flutter 
 
 This project is a starting point for a Flutter application.
 
