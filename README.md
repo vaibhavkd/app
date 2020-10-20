@@ -10,7 +10,9 @@ Flutter android app that gives real time covid19 cases, news, updates from WHO &
   <img src="screenshots/Screenshot_2020-10-20-16-53-18-603_com.example.pune_fights_covid19.jpg" width="300">
 </p>
 
-### Dependencies Used
+### Dependencies and Assets Used
+#### Flutter libraries required for project are specified in pubspec.yaml file that is in root directory of project.
+#### Images used in project are containe in assets folder and their paths are specified in pubspec.yaml. 
 
 ```
 dependencies:
@@ -21,6 +23,21 @@ dependencies:
   url_launcher: ^5.4.0 
   easy_web_view: ^1.3.0
   http: ^0.12.0
+  
+```
+
+```
+assets:
+    - assets/Google.png
+    - assets/GOI.png
+    - assets/MaskOn.png
+    - assets/who-logo.png
+    - assets/fever.png
+    - assets/cough.png
+    - assets/headache.png
+    - assets/face-protection.png
+    - assets/distance.png
+    - assets/antibacterial-gel.png
   
 ```
 
