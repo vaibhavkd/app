@@ -2,7 +2,7 @@
 
 Flutter android app that gives real time covid19 cases, news, updates from WHO & UN, info about covid19 disease and helpline info for Pune City in India.
 
-####Some Screenshots from app
+### Some Screenshots from app
 
 <p align="center">
   <img src="screenshots/Screenshot_2020-10-20-16-51-16-603_com.example.pune_fights_covid19.jpg" width="300">
